@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/fawwazmuhammad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fawwazmuhammad.com
+  * I am fawwazmuhammad (https://keybase.io/fawwazmuhammad) on keybase.
+  * I have a public key ASAIAEC0SJJI2oFNHgH7Ptoo8oFIYxdYyL5muUV0Ro6wygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120080040b4489248da814d1e01fb3eda28f28148631758c8be66b94574468eb0ca0a",
+      "host": "keybase.io",
+      "kid": "0120080040b4489248da814d1e01fb3eda28f28148631758c8be66b94574468eb0ca0a",
+      "uid": "3d352af142f9159e138ba7359570f119",
+      "username": "fawwazmuhammad"
+    },
+    "merkle_root": {
+      "ctime": 1523621413,
+      "hash": "48862f3352eb2b61a159953eff9338513161e134dc1aae6dd8dfff1408fc55bc3da49208fecf2bc3dd856817f243c947b418104510a0f0482c649d439567e00d",
+      "hash_meta": "84de1baa6fc3ee3e675484278eba235d8f1fe4b12561f90f05b62b9cd3312635",
+      "seqno": 2384862
+    },
+    "service": {
+      "hostname": "fawwazmuhammad.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1523621455,
+  "expire_in": 504576000,
+  "prev": "5b5bdaa13152e1f1467110b26018cb09efbce0c0ae0a9d85c45128d3e5228857",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCABAtEiSSNqBTR4B+z7aKPKBSGMXWMi+ZrlFdEaOsMoKp3BheWxvYWTFA1B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDgwMDQwYjQ0ODkyNDhkYTgxNGQxZTAxZmIzZWRhMjhmMjgxNDg2MzE3NThjOGJlNjZiOTQ1NzQ0NjhlYjBjYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDgwMDQwYjQ0ODkyNDhkYTgxNGQxZTAxZmIzZWRhMjhmMjgxNDg2MzE3NThjOGJlNjZiOTQ1NzQ0NjhlYjBjYTBhIiwidWlkIjoiM2QzNTJhZjE0MmY5MTU5ZTEzOGJhNzM1OTU3MGYxMTkiLCJ1c2VybmFtZSI6ImZhd3dhem11aGFtbWFkIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTIzNjIxNDEzLCJoYXNoIjoiNDg4NjJmMzM1MmViMmI2MWExNTk5NTNlZmY5MzM4NTEzMTYxZTEzNGRjMWFhZTZkZDhkZmZmMTQwOGZjNTViYzNkYTQ5MjA4ZmVjZjJiYzNkZDg1NjgxN2YyNDNjOTQ3YjQxODEwNDUxMGEwZjA0ODJjNjQ5ZDQzOTU2N2UwMGQiLCJoYXNoX21ldGEiOiI4NGRlMWJhYTZmYzNlZTNlNjc1NDg0Mjc4ZWJhMjM1ZDhmMWZlNGIxMjU2MWY5MGYwNWI2MmI5Y2QzMzEyNjM1Iiwic2Vxbm8iOjIzODQ4NjJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZmF3d2F6bXVoYW1tYWQuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40MCJ9LCJjdGltZSI6MTUyMzYyMTQ1NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1YjViZGFhMTMxNTJlMWYxNDY3MTEwYjI2MDE4Y2IwOWVmYmNlMGMwYWUwYTlkODVjNDUxMjhkM2U1MjI4ODU3Iiwic2Vxbm8iOjE1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQA2TrXAQyG9ng6uiQIuTK1TOH097Tc/swiRussKYRwD+iJ2s0EK0EJHHSvtPxdry4bTeKCYFvpMgXcaDSutmrAaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBSFuezj5ulJQKffAJTZmTKw/kGjmmif0Y6JOOjbtwK36N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fawwazmuhammad
+
+==================================================================
