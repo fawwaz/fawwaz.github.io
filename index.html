@@ -22,25 +22,272 @@
     />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <!-- <script rel="preload" src="js/jquery.min.js"></script> -->
-    <script
-      rel="preload"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"
-    ></script>
-    <!-- <script rel="preload" src="js/jquery.poptrox.min.js"></script> -->
-    <script
-      rel="preload"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.poptrox/2.5.0/jquery.poptrox.min.js"
-    ></script>
-    <!-- <script rel="preload" src="js/skel.min.js"></script> -->
-    <script
-      rel="preload"
-      src="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.js"
-    ></script>
+    <style>
+      html,
+      body,
+      div,
+      span,
+      h1,
+      h2,
+      h3,
+      p,
+      a,
+      img,
+      strong,
+      ul,
+      li,
+      footer,
+      header,
+      section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      footer,
+      header,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ul {
+        list-style: none;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+      }
+      *,
+      *:before,
+      *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      @import url(font-awesome.min.css);
+      @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+      body {
+        background: #fff;
+      }
+      body {
+        color: #a2a2a2;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 16pt;
+        font-weight: 400;
+        line-height: 1.75em;
+      }
+      a {
+        border-bottom: dotted 1px;
+        color: #49bf9d;
+        text-decoration: none;
+      }
+      strong {
+        color: #787878;
+        font-weight: 400;
+      }
+      p {
+        margin: 0 0 2em 0;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #787878;
+        font-weight: 400;
+        line-height: 1em;
+        margin: 0 0 1em 0;
+      }
+      h1 {
+        font-size: 2em;
+        line-height: 1.5em;
+      }
+      h2 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+      h3 {
+        font-size: 1.25em;
+        line-height: 1.5em;
+      }
+      ::-webkit-input-placeholder {
+        color: #b2b2b2 !important;
+        opacity: 1;
+      }
+      :-moz-placeholder {
+        color: #b2b2b2 !important;
+        opacity: 1;
+      }
+      ::-moz-placeholder {
+        color: #b2b2b2 !important;
+        opacity: 1;
+      }
+      :-ms-input-placeholder {
+        color: #b2b2b2 !important;
+        opacity: 1;
+      }
+      .icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+      }
+      .icon:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+      }
+      .icon > .label {
+        display: none;
+      }
+      .image {
+        border-radius: 0.35em;
+        border: 0;
+        display: inline-block;
+        position: relative;
+      }
+      .image:before {
+        background: url("images/overlay.png");
+        border-radius: 0.35em;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      .image img {
+        border-radius: 0.35em;
+        display: block;
+      }
+      .image.avatar {
+        border-radius: 100%;
+      }
+      .image.avatar:before {
+        display: none;
+      }
+      .image.avatar img {
+        border-radius: 100%;
+        width: 100%;
+      }
+      ul {
+        list-style: disc;
+        margin: 0 0 2em 0;
+        padding-left: 1em;
+      }
+      ul li {
+        padding-left: 0.5em;
+      }
+      ul.icons {
+        list-style: none;
+        padding-left: 0;
+      }
+      ul.icons li {
+        display: inline-block;
+        padding: 0 1em 0 0;
+      }
+      ul.icons li:last-child {
+        padding-right: 0;
+      }
+      ul.icons li .icon:before {
+        font-size: 1.5em;
+      }
+      #header {
+        background-color: #1f1815;
+        background-attachment: scroll, fixed;
+        background-image: url("images/overlay.png"),
+          url("../images/bg-compressed.jpg");
+        background-position: top left, top left;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, auto 100%;
+        color: rgba(255, 255, 255, 0.5);
+        height: 100%;
+        left: 0;
+        padding: 8em 4em 0 0;
+        position: fixed;
+        text-align: right;
+        top: 0;
+        width: 35%;
+      }
+      #header strong {
+        color: #ffffff;
+      }
+      #header h1 {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.35em;
+        line-height: 1.75em;
+        margin: 0;
+      }
+      #header .image.avatar {
+        margin: 0 0 1em 0;
+        width: 6.25em;
+      }
+      #footer {
+        bottom: 0;
+        left: 0;
+        padding: 0 4em 6em 0;
+        position: fixed;
+        text-align: right;
+        width: 35%;
+      }
+      #footer .icons {
+        margin: 1em 0 0 0;
+      }
+      #footer .icons a {
+        color: rgba(255, 255, 255, 0.4);
+      }
+      #footer .copyright {
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.8em;
+        list-style: none;
+        margin: 1em 0 0 0;
+        padding: 0;
+      }
+      #main {
+        margin-left: 35%;
+        max-width: 54em;
+        padding: 8em 4em 4em 4em;
+        width: calc(100% - 35%);
+      }
+      #main > section {
+        border-top: solid 2px #efefef;
+        margin: 4em 0 0 0;
+        padding: 4em 0 0 0;
+      }
+      #main > section:first-child {
+        border-top: 0;
+        margin-top: 0;
+        padding-top: 0;
+      }
+      #header {
+        padding: 4.5em 1.5em;
+      }
+      #header h1 br {
+        display: none;
+      }
+      body {
+        font-size: 12pt;
+      }
+    </style>
+    <script rel="preload" src="js/jquery.min.js"></script>
+    <script rel="preload" src="js/jquery.poptrox.min.js"></script>
+    <script rel="preload" src="js/skel.min.js"></script>
+
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
       <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-xlarge.css" />
+      <link
+        rel="stylesheet"
+        media="screen and (min-width: 1281px) and (max-width: 1680px)"
+        href="css/style-xlarge.css"
+      />
     </noscript>
+
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
     <script>
       (function(i, s, o, g, r, a, m) {
